@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_rating"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_ghmc"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.ghmc.biswajeet.ghmcrating.RatingActivity"
+    android:weightSum="1">
+
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/locality_name"
+       android:text="Locality Name:"
+       android:textStyle="bold"
+       android:textColor="#fff"
+       android:layout_margin="15dp"
+       android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:id="@+id/workers_alloc"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:text="GHMC Workers Allocated:"
+        android:textSize="20sp"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="RATE CLEANLINESS:"
+         android:textStyle="bold"
+         android:textColor="#fff"
+         android:layout_margin="15dp"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rating_area"
+        />
+
+    </LinearLayout>
+
+  <EditText
+      android:layout_width="match_parent"
+      android:layout_gravity="center"
+      android:background="#fff"
+      android:id="@+id/suggestion"
+      android:layout_height="wrap_content"
+      android:hint="\t\t\tSuggestions on Cleanling The Area"
+      android:layout_weight="0.21" />
+
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:background="#34ea18"
+      android:onClick="submitRating"
+      android:text="Submit"/>
+
+
+  <Button
+      android:layout_width="300dp"
+      android:layout_height="50dp"
+      android:layout_gravity="center"
+      android:background="#34ea18"
+      android:layout_margin="5dp"
+      android:text="Rate The Workers"
+     />
+
+  <Button
+      android:layout_width="300dp"
+      android:layout_height="50dp"
+      android:background="#34ea18"
+      android:layout_gravity="center"
+      android:text="Disperencies"
+      android:onClick="disperencies"
+      />
+
+   <Button
+       android:layout_width="300dp"
+       android:layout_height="50dp"
+       android:layout_margin="5dp"
+       android:layout_gravity="center"
+       android:background="#34ea18"
+       android:onClick="signout"
+       android:text=" Sign Out"
+
+       />
+
+
+</LinearLayout>

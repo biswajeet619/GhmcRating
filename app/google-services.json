@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "786249663189",
+    "firebase_url": "https://ghmc-swachh.firebaseio.com",
+    "project_id": "ghmc-swachh",
+    "storage_bucket": "ghmc-swachh.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786249663189:android:0705d87278c596d5",
+        "android_client_info": {
+          "package_name": "com.ghmc.biswajeet.ghmcrating"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786249663189-b5746hm8cn2bol5eqkv34a0b49aud9gr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZulzjMkrER1yi0Xqzi4-LWPYeAup8pwo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "786249663189-b5746hm8cn2bol5eqkv34a0b49aud9gr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
